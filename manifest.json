@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Project Awesome Community",
+  "description": "A Community Extension Designed for The Project Awesome Servers!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Project Awesome Community Servers"
+  },
+  "permissions": [
+    "activeTab",
+	"idle",
+	"notifications",
+    "https://ajax.googleapis.com/"
+  ]
+}
